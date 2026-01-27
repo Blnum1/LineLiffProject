@@ -1,12 +1,19 @@
-<!-- <iframe title="TestData Graph" width="1140" height="800" src="https://app.powerbi.com/reportEmbed?reportId=7e6bb2cd-aee7-4d20-a5b4-fb68eba126a2&autoAuth=true&ctid=8c1832ea-a96d-413e-bf7d-9fe4d608e00b" frameborder="0" allowFullScreen="true"></iframe> -->
-
 <div class="liff-page-wrapper">
+  <!-- <header>
+    <h1>กราฟรายได้</h1>
+  </header> -->
   <main class="content-area">
     <iframe 
+      #pbiFrame
       class="powerbi-frame"
       [src]="pbiUrl" 
       frameborder="0" 
       allowFullScreen="true">
     </iframe>
   </main>
+
+  <footer class="footer">
+    <button pButton icon="pi pi-wallet" label="รายได้" (click)="changePage('ReportSectionb41e4560e006891d0ea4')"></button>
+    <button pButton icon="pi pi-chart-line" label="สรุปผล" (click)="changePage('ReportSection3004f68f5ea9aa975dab')"></button>
+  </footer>
 </div>

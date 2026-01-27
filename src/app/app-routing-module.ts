@@ -4,7 +4,7 @@ import { Graph01 } from './Dashboard/graph01/graph01';
 import { Graph02 } from './Dashboard/graph02/graph02';
 
 const routes: Routes = [
-  { path: 'income-graph', component: Graph01 },
+  { path: '', component: Graph01 },
   { path: 'score-graph', component: Graph02 },
 ];
 
