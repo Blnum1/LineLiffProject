@@ -35,6 +35,7 @@
     "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
+    "pg": "^8.17.2",
     "powerbi-client": "^2.23.9",
     "powerbi-client-angular": "^6.0.3",
     "primeicons": "^7.0.0",
